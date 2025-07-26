@@ -1,0 +1,46 @@
+# Apache HTTPD Config Linter Documentation
+
+## Overview
+
+This documentation provides comprehensive guidance for using, configuring, and extending the Apache HTTPD Config Linter. The linter is designed to analyze Apache HTTP Server configuration files, identify potential security risks, flag misconfigurations, and enforce best practices. This documentation is intended for end-users, contributors, and developers who wish to understand or contribute to the project.
+
+---
+
+## Directory Structure
+
+- **README.md**: This file. Project documentation index.
+- **user_guide.md**: Step-by-step instructions for installing, running, and interpreting results.
+- **rules_reference.md**: Detailed listing of all linter rules, including security rationale and configuration examples.
+- **developer_guide.md**: Information for contributors about extending linter rules, adding tests, and contributing code.
+- **faq.md**: Frequently asked questions about the linter and troubleshooting common issues.
+- **changelog.md**: Release history and notable changes.
+
+---
+
+## Documentation Contents
+
+- [User Guide](user_guide.md): Learn how to install the linter, scan your Apache configs, and understand the output.
+- [Rules Reference](rules_reference.md): See all the checks the linter performs, why they matter, and how to fix flagged issues.
+- [Developer Guide](developer_guide.md): For those interested in contributing, learn about the codebase, architecture, and how to add new functionality.
+- [FAQ](faq.md): Quick answers to common questions and troubleshooting tips.
+- [Changelog](changelog.md): Track the evolution of the project.
+
+---
+
+## Example Usage
+
+```sh
+# Scan a configuration file
+apache-httpd-config-linter /etc/httpd/conf/httpd.conf
+
+# Scan and output results in JSON
+apache-httpd-config-linter --format json /etc/httpd/conf/httpd.conf
+```
+
+---
+
+## Feedback & Contributions
+
+Feedback, bug reports, and contributions are welcome! Please see the [Developer Guide](developer_guide.md) for details on how to get involved.
+
+---
