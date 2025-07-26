@@ -1,0 +1,7 @@
+"""
+tests - Test suite for Apache HTTPD Config Linter
+
+This package contains unit and integration tests for the Apache HTTPD Config Linter project.
+Tests cover core linter logic, rule evaluation, CLI behavior, and real-world configuration scenarios.
+Use `pytest` or another test runner to execute all tests in this directory.
+"""
