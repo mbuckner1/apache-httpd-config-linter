@@ -1,0 +1,24 @@
+# MANIFEST.in - Include extra files in the source distribution for Apache HTTPD Config Linter
+#
+# This file tells setuptools which extra files and directories to include in the source distribution (sdist).
+# Including these files ensures that documentation, licenses, configuration examples, and non-Python assets
+# are part of the packaged release for users and contributors.
+#
+# Common inclusions:
+# - README.md: Project overview and documentation.
+# - LICENSE: Legal license for the project.
+# - requirements.txt: Dependency list.
+# - All Python source files in the main package.
+# - Any rule, configuration, or data files (YAML/JSON) used by the linter.
+# - Documentation (docs/) and example files (examples/).
+#
+# For more info, see: https://docs.python.org/3/distutils/sourcedist.html#manifest-related-options
+
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include apache_httpd_config_linter *.py
+recursive-include apache_httpd_config_linter *.yaml
+recursive-include apache_httpd_config_linter *.json
+recursive-include docs *
+recursive-include examples *
