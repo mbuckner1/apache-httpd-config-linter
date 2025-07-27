@@ -8,12 +8,12 @@ This documentation provides comprehensive guidance for using, configuring, and e
 
 ## Directory Structure
 
-- **README.md**: This file. Project documentation index.
-- **user_guide.md**: Step-by-step instructions for installing, running, and interpreting results.
-- **rules_reference.md**: Detailed listing of all linter rules, including security rationale and configuration examples.
-- **developer_guide.md**: Information for contributors about extending linter rules, adding tests, and contributing code.
-- **faq.md**: Frequently asked questions about the linter and troubleshooting common issues.
-- **changelog.md**: Release history and notable changes.
+- README.md: This file. Project documentation index.
+- user_guide.md: Step-by-step instructions for installing, running, and interpreting results.
+- rules_reference.md: Detailed listing of all linter rules, including security rationale and configuration examples.
+- developer_guide.md: Information for contributors about extending linter rules, adding tests, and contributing code.
+- faq.md: Frequently asked questions about the linter and troubleshooting common issues.
+- changelog.md: Release history and notable changes.
 
 ---
 
